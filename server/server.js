@@ -3,7 +3,7 @@ const express = require('express');
 const http = require('http');
 const socketIO = require('socket.io');
 
-const port = process.env.port || 3000;
+const port = process.env.port || 80;
 const publicPath = path.join(__dirname, '/../public');
 let app = express();
 let server = http.createServer(app);
